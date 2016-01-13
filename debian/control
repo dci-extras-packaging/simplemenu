@@ -5,6 +5,7 @@ Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
+               libkf5activities-dev,
                libkf5config-dev,
                libkf5dbusaddons-dev,
                libkf5declarative-dev,
