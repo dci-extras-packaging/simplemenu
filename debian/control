@@ -2,14 +2,28 @@ Source: simplemenu
 Section: unknown
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9), cmake
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libkf5config-dev,
+               libkf5dbusaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5kdelibs4support-dev,
+               libkf5notifications-dev,
+               libkf5people-dev,
+               libkf5runner-dev,
+               libkf5solid-dev,
+               libkf5windowsystem-dev,
+               libqt5x11extras5-dev,
+               plasma-framework-dev,
+               plasma-workspace-dev,
+               qtbase5-dev
 Standards-Version: 3.9.6
 Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/simplemenu.git
-#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/simplemenu.git;a=summary
 
 Package: simplemenu
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
