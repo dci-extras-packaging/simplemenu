@@ -17,6 +17,7 @@ Build-Depends: cmake,
                libkf5solid-dev,
                libkf5windowsystem-dev,
                libqt5x11extras5-dev,
+               pkg-kde-tools,
                plasma-framework-dev,
                plasma-workspace-dev,
                qtbase5-dev
