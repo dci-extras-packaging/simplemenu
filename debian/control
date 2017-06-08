@@ -1,31 +1,21 @@
 Source: simplemenu
-Section: unknown
+Section: kde
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
-               libkf5activities-dev,
-               libkf5config-dev,
-               libkf5dbusaddons-dev,
-               libkf5declarative-dev,
-               libkf5i18n-dev,
-               libkf5kdelibs4support-dev,
-               libkf5notifications-dev,
-               libkf5people-dev,
-               libkf5runner-dev,
-               libkf5solid-dev,
-               libkf5windowsystem-dev,
-               libqt5x11extras5-dev,
-               pkg-kde-tools,
-               plasma-framework-dev,
-               plasma-workspace-dev,
-               qtbase5-dev
+               libkf5plasma-dev,
+               pkg-kde-tools
 Standards-Version: 3.9.6
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://store.kde.org/p/1169537/
 
 Package: simplemenu
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: simple menu launcher for Plasma 5
+ Simple Menu is an intentionally minimal launcher widget for Plasma 5.
+ Powered by the same powerful backend as Plasma 5's bundled launchers,
+ its UI is similar to the fullscreen Application Dashboard, just in a
+ small, floating window. In addition to the application grid and
+ filtering, it supports favorites, search and basic system actions.
