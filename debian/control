@@ -6,6 +6,7 @@ Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
                libkf5plasma-dev,
+               libkf5windowsystem-dev,
                pkg-kde-tools
 Standards-Version: 3.9.6
 Homepage: https://store.kde.org/p/1169537/
