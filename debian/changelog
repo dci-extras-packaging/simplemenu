@@ -1,3 +1,10 @@
+simplemenu (1.0.12-1) stable; urgency=medium
+
+  * New release. 
+  * Change multiarch.
+
+ -- Scarlett Moore <sgmoore@kde.org>  Tue, 28 Jan 2020 20:44:46 -0700
+
 simplemenu (1.0.2-0) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

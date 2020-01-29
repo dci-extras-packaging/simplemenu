@@ -12,7 +12,8 @@ Standards-Version: 3.9.6
 Homepage: https://store.kde.org/p/1169537/
 
 Package: simplemenu
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: simple menu launcher for Plasma 5
  Simple Menu is an intentionally minimal launcher widget for Plasma 5.
